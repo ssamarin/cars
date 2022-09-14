@@ -5,7 +5,17 @@
 @import 'base/mixins';
 @import 'blocks/fonts.scss';
 
-* {
+html, body {
     font-family: 'Poppins';
+    height: 100%;
 }
 
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+}
