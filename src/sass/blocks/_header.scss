@@ -4,6 +4,12 @@
     top: 0;
     left: 0;
     z-index: 3;
+    &__logo {
+        display: inline-block;
+        & img {
+            height: 65px;
+        }
+    }
 }
 
 .header__wrapper {
@@ -12,6 +18,8 @@
     justify-content: space-around;
     align-items: center;
 }
+
+
 
 .menu__list {
     display: flex;

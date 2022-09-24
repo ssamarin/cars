@@ -1,0 +1,44 @@
+.cards {
+    margin-top: -98px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+    }
+    &__item {
+        width: 386px;
+        height: 196px;
+        padding: 39px 84px 37px 45px;
+        z-index: 500;
+        background-color: #fff;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    }
+    &__title {
+        margin-top: 21px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 1.3px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__descr {
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #B7B7B7;
+    }
+    &__link {
+        color: #000000;
+        &:hover {
+            transition: all 0.7s;
+            text-decoration: none;
+            color: transparent;   
+            -webkit-background-clip: text;
+	        background-clip: text;
+	        background-image: linear-gradient(90deg, rgb(120, 15, 15), rgb(212, 53, 19) 62%);
+        }
+    }
+}
+
