@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 
+
 @import 'base/variables';
 @import 'base/mixins';
 @import 'blocks/fonts.scss';
@@ -7,6 +8,9 @@
 @import 'blocks/promo';
 @import 'blocks/cards';
 @import 'blocks/services';
+@import 'blocks/weUndesrstand';
+@import 'blocks/fastAndEasy';
+
 
 html, body {
     font-family: 'Poppins';
