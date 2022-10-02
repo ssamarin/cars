@@ -1,0 +1,19 @@
+.footer {
+    height: 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 46px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        letter-spacing: 0.15em;
+        color: #000000;
+    }
+    &__socials {
+        display: flex;
+        gap: 22px;
+    }
+}
